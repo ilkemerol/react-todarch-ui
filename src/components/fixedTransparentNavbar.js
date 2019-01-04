@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
 
 class FixedTransparentNavbar extends React.Component {
   constructor(props) {
@@ -23,7 +23,8 @@ class FixedTransparentNavbar extends React.Component {
         <header>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand href="/">
-                <strong>Navbar</strong>
+                <MDBIcon className="mr-3" icon="google-wallet" />
+                <strong>todarch.</strong>
               </MDBNavbarBrand>
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>

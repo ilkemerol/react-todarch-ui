@@ -1,0 +1,8 @@
+.f-bg {
+    background-image: -webkit-linear-gradient(330deg, #e0c3fcab 0%, #8ec5fc 100%);
+    background-image: linear-gradient(120deg, #e0c3fcab 0%, #8ec5fc 100%);
+}
+
+.todarch-big-f {
+    font-size: 102px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import { MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import { MDBView, MDBMask, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
+import SignUpForm from '../components/signUpForm';
 
 class FullPageIntro extends React.Component {
   constructor(props) {
@@ -21,15 +22,21 @@ class FullPageIntro extends React.Component {
     return (
       <div>
         <header>
-          <MDBView src="https://mdbootstrap.com/img/Photos/Others/img%20(40).jpg">
-            <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
-              <MDBContainer className=" my-5">
+          <MDBView src="https://mdbootstrap.com/img/Photos/Others/images/47.jpg">
+            <MDBMask overlay="blue-light" className="flex-center flex-column text-white text-center">
+              <MDBContainer className="my-5">
+                <MDBRow className="mb-5">
+                  <MDBCol size="12">
+                    <h2 className="todarch-big-f float-right">todarch.</h2>
+                    <MDBIcon className="todarch-big-f float-right mr-5" icon="google-wallet" />
+                  </MDBCol>
+                </MDBRow>
                 <MDBRow>
                   <MDBCol size="6">
-                    <h5>It will always stay visible on the top, even when you scroll down</h5>
+                    <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" className="img-fluid" />
                   </MDBCol>
                   <MDBCol size="6">
-                    <h5>It will always stay visible on the top, even when you scroll down</h5>
+                    <SignUpForm />
                   </MDBCol>
                 </MDBRow>
               </MDBContainer>
