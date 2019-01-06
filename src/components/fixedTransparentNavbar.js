@@ -33,10 +33,10 @@ class FixedTransparentNavbar extends React.Component {
                     <MDBNavLink to="/">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="/dashboard">Link</MDBNavLink>
+                    <MDBNavLink to="/dashboard">Dashboard</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Profile</MDBNavLink>
+                    <MDBNavLink to="/myPlayground">My Playground</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
