@@ -36,7 +36,7 @@ class LoginForm extends React.Component {
             <div className="z-depth-5 rounded module form-module">
                 <div className="toggle">
                     <i className="fa fa-times fa-pencil" />
-                    <div className="tooltip">Click Me</div>
+                    {/*<div className="tooltip">Sign Up Here!</div>*/}
                 </div>
                 <div className="form">
                     <h2>Login to your account</h2>

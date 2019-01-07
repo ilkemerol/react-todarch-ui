@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBView, MDBMask, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
+import { MDBView, MDBMask, MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 //import SignUpForm from '../components/signUpForm';
 import LoginForm from '../materials/loginForm';
 
@@ -25,18 +25,17 @@ class FullPageIntro extends React.Component {
         <header>
           <MDBView src="https://mdbootstrap.com/img/Photos/Others/images/47.jpg">
             <MDBMask overlay="blue-light" className="flex-center flex-column text-white">
-              <MDBContainer className="my-5">
-                <MDBRow className="mb-5">
+              <MDBContainer className="mx-auto">
+                <MDBRow>
                   <MDBCol size="12">
                     <h2 className="todarch-big-f float-right">todarch.</h2>
-                    <MDBIcon className="todarch-big-f float-right mr-5" icon="google-wallet" />
                   </MDBCol>
                 </MDBRow>
                 <MDBRow>
-                  <MDBCol size="6">
+                  <MDBCol md="6" className="d-none d-sm-block">
                     <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" className="img-fluid" />
                   </MDBCol>
-                  <MDBCol size="6">
+                  <MDBCol md="6" sm="12">
                     <LoginForm />
                   </MDBCol>
                 </MDBRow>

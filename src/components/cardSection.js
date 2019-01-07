@@ -7,7 +7,7 @@ class CardSection extends React.Component {
       <div>
         <MDBContainer className=" my-5">
           <MDBRow>
-            <MDBCol size="4">
+            <MDBCol md="4" sm="12">
               <Card>
                 <CardImage
                   className="img-fluid"
@@ -24,7 +24,7 @@ class CardSection extends React.Component {
                 </CardBody>
               </Card>
             </MDBCol>
-            <MDBCol size="4">
+            <MDBCol md="4" sm="12">
               <Card>
                 <CardImage
                   className="img-fluid"
@@ -41,7 +41,7 @@ class CardSection extends React.Component {
                 </CardBody>
               </Card>
             </MDBCol>
-            <MDBCol size="4">
+            <MDBCol md="4" sm="12">
               <Card>
                 <CardImage
                   className="img-fluid"
